@@ -1,0 +1,5 @@
+schema:
+  - https://[your_store_name].swell.store/graphql:
+      headers:
+        Authorization: "[your_public_key]"
+documents: src/**/*.{graphql,gql,js,ts,jsx,tsx}
